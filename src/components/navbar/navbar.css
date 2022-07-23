@@ -1,0 +1,16 @@
+.navbar-container{
+  text-align: center;
+  background-color:white;
+  
+  display:flex;
+  justify-content: center;
+}
+
+.navbar-title {
+  background-color:white;
+  width:300px;
+  border-radius:15px;
+  transform: translateY(55px);
+  
+  
+}
