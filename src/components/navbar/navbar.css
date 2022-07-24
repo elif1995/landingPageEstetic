@@ -4,13 +4,14 @@
   
   display:flex;
   justify-content: center;
+  
 }
 
 .navbar-title {
   background-color:white;
   width:300px;
   border-radius:15px;
-  transform: translateY(55px);
-  
+  transform: translateY(60px);
+  z-index: 2;
   
 }

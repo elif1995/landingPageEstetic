@@ -1,87 +1,10 @@
-/* .circle-menu{
-  height:400px;
-  width:100%;
-  background-color:black;
+.body-carousel{
+ height: 50vh; 
+ direction: ltr;
+ background-color:lightgrey; 
+ padding:50px 
 }
-
-.big-circle{
-  height:150px;
-  width:150px;
-  background-color:transparent;
-  position:absolute;
-  top:10%;
-  left:50%;
-  border-radius:100px;
-  animation: spining 25s ease infinite; 
-  transform:translateX(-50%);
+.carousel-item{
+  height:200px;
+  width:250px;
 }
-
-.small-circle-1{
-  height:80px;
-  width:80px;
-  color:white;
-  background-color: lightpink;
-  border-radius:100px;
-  text-align:center;
-  position: relative;
-  top: -20px;
-  right:-40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.small-circle-2{
-  height:80px;
-  width:80px;
-  color:white;
-  background-color:lightpink;
-  border-radius:100px;
-  text-align:center;
-  position: relative;
-  top: 20px;
-  right:-150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.small-circle-3{
-  height:80px;
-  width:80px;
-  color:white;
-  background-color:lightpink;
-  border-radius:100px;
-  text-align:center;
-  position: relative;
-  top: -30px;
-  right:80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.small-circle-4{
-  height:80px;
-  width:80px;
-  color:white;
-  background-color:lightpink;
-  border-radius:100px;
-  text-align:center;
-  position: relative;
-  top: -10px;
-  right:-40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@keyframes spining {
-  0%{
-    transform:rotate(0deg) 
-    
-  } 
-  80%{
-    transform:rotate(360deg)
-  } 
-  100%{
-    transform:rotate(0deg)
-  } 
-}  */

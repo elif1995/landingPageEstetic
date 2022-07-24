@@ -9,10 +9,10 @@ function App() {
     <div className="app ">
       <Navbar/>
       <Header/>
-      {/* <CircleMenu/> */}
-      <br/>
       <br/>
       <Body/>
+      <br/>
+      <CircleMenu/>
     </div>
   );
 }

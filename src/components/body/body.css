@@ -1,22 +1,64 @@
 .body-container{
   height:50vh;
   background-color:white;
-  display:flex;
-  justify-content:center;
-
+  
+  
 }
 
-
 .body-doctor-section{
-  max-height: 300px;
+  display:flex;
+  height: 40vh;
+  justify-content: space-around;
+  
+  
+}
+
+.body-doctor-section > img{
+  
+  border-radius:10px;
+  box-shadow: rgba(17, 17, 26, 0.181) 0px 0px 16px;
+  border: 1px solid rgb(225, 167, 176);
+  width: clamp(30vw,80vw, 40vw);
+  
+}
+
+.body-doctor-section > h2{
+  
   background-color: white;
   /* border:1px solid lightpink; */
-  width:90%;
-  border-radius:15px;
-  
+  width:50%;
+  border-radius:10px;
+  border:1px solid rgb(225, 167, 176);
   display:flex;
   justify-content:center;
   align-items:center;
   padding:20px;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  box-shadow: rgba(17, 17, 26, 0.177) 0px 0px 16px;
+  font-size: clamp(0.5vh,1.4rem, 2vw);
+  color:rgb(244, 142, 157)
+}
+
+
+
+
+
+
+
+
+@media  screen and (max-width:880px){
+  .body-doctor-section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .body-doctor-section > h2{
+    width:50%;
+    height:50%;
+  }
+  .body-doctor-section > img{
+    width:50%;
+    height:50%;
+
+  }
+  
 }

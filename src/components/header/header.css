@@ -1,15 +1,15 @@
 .header-container{
-  height:80vh;
-  background-color:lightgrey;
+  height:50vh;
+  
 }
 
 .header-image{
-  height: 70vh;
+  height: 40vh;
   
   background-image: url(https://www.blossomcosmeticclinic.co.uk/wp-content/uploads/2020/12/wrinkle-banner-scaled.jpg);
   background-position: center;
   background-size: cover;
-  box-shadow: inset 0 0 0 2000px rgba(73, 57, 62, 0.211);
+  box-shadow: inset 0 0 0 2000px rgba(230, 197, 206, 0.382);
   
 }
 
@@ -24,31 +24,54 @@
   
 }
 
+
+
 .header-hovers{
   display:flex;
   height:11vh;
+  
+  margin-top: -55px;
 }
 
-.header-box{
-  height:100%;
-  flex: 1;
+.description-inner{
+  width:80%;
+  min-height:90px;
+  direction: rtl;
+  background-color: white;
+  border-radius: 40px;
+  position:absolute;
+  left: 50%;
+  border:solid 1px lightpink;
+  
+  transform: translateX(-50%);
+  box-shadow: 3px 3px 8px rgba(211, 211, 211, 0.466);
+  padding: 20px;
+  /* border: solid 1px rgb(248, 185, 102); */
+}
+
+.description-inner h1{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  color: lightpink;
+  font-weight: bold;
+  font-size: clamp(0.5vh,1.7rem, 3vw);
+}
+
+
+
+
+
+#badge-ribbon {
+  position: relative;
+  background-color: white;
+  border: 2px solid rgba(232, 156, 181, 0.399);
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgb(255, 255, 255);
-  background-color: rgb(225, 167, 176);
-  flex-wrap: wrap;
-  
+  transform:translateX(-40px) translateY(30px)
 }
 
-.header-box > p {
-  color: white;
-  font-size: 20px;
-  font-size: clamp(0.5vh,1.5rem, 4vw);
-  
-}
-
-.header-box:hover{
-  background-color: rgb(188, 121, 143);
-  transition: 0.3s ease;
-}
