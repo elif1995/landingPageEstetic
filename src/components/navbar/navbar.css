@@ -11,7 +11,7 @@
   background-color:white;
   width:300px;
   border-radius:15px;
-  transform: translateY(60px);
+  transform: translateY(40px);
   z-index: 2;
   display: flex;
   justify-content: space-evenly;

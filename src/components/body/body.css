@@ -1,5 +1,5 @@
 .body-container{
-  height:50vh;
+  
   background-color:white;
   
   
@@ -14,28 +14,28 @@
 }
 
 .body-doctor-section > img{
-  
-  border-radius:10px;
-  box-shadow: rgba(17, 17, 26, 0.181) 0px 0px 16px;
-  border: 1px solid rgb(225, 167, 176);
-  width: clamp(30vw,80vw, 40vw);
+  opacity: 0.95;
+  border-radius:30px;
+  box-shadow: rgba(80, 80, 101, 0.181) 0px 0px 16px;
+  /* border: 1px solid rgb(246, 210, 215); */
+  width: clamp(30vw,80vw, 20vw);
   
 }
 
 .body-doctor-section > h2{
   
-  background-color: white;
-  /* border:1px solid lightpink; */
-  width:50%;
-  border-radius:10px;
-  border:1px solid rgb(225, 167, 176);
+  /* background-color: rgba(255, 255, 255, 0.618); */
+  /* border:1px solid rgba(240, 212, 216, 0.467); */
+  width:60%;
+  border-radius:30px;
+  /* box-shadow: rgba(164, 164, 184, 0.181) 0px 0px 16px; */
   display:flex;
   justify-content:center;
   align-items:center;
   padding:20px;
-  box-shadow: rgba(17, 17, 26, 0.177) 0px 0px 16px;
-  font-size: clamp(0.5vh,1.4rem, 2vw);
-  color:rgb(244, 142, 157)
+  line-height:50px;
+  font-size: clamp(1vh,1.9rem, 3vw);
+  color:rgb(239, 239, 239)
 }
 
 
@@ -47,18 +47,22 @@
 
 @media  screen and (max-width:880px){
   .body-doctor-section{
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
   }
   .body-doctor-section > h2{
     width:50%;
-    height:50%;
+    height:80%;
+    margin-top: 10px;
+    border-radius:10px;
+    line-height: 30px;
   }
   .body-doctor-section > img{
-    width:50%;
+    width:40%;
     height:50%;
-
+    border-radius:10px
+    
   }
   
 }
