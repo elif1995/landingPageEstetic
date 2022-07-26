@@ -1,10 +1,6 @@
 .body-carousel{
- height: 50vh; 
- direction: ltr;
- background-color:lightgrey; 
- padding:50px 
-}
-.carousel-item{
-  height:200px;
-  width:250px;
+ 
+
+ background-color:rgba(255, 232, 241, 0.545); 
+  
 }

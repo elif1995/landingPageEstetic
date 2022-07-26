@@ -72,6 +72,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transform:translateX(-40px) translateY(30px)
+  transform:translateX(-40px) translateY(30px);
+  
 }
-
+#badge-ribbon a{
+  text-decoration: none;
+}

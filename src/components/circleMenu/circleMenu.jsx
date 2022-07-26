@@ -1,34 +1,34 @@
 
 import './circleMenu.css';
+import React, { Component } from 'react';
+import Carousel from 'react-elastic-carousel';
+import Item from '../item.jsx'
 
-import React,{ Component } from 'react';
-import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-
+import {Data} from '../data.jsx'
 
 const CircleMenu = () => {
 
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3
-  };
+  
 
+  const breakPoints = [
+    {width:1, itemsToShow:1},
+    {width:550, itemsToShow:2},
+    {width:768, itemsToShow:3},
+    {width:1200, itemsToShow:3}
+  ]
+  
 
 
   return (
     <div className="body-carousel">
       
-      
-        <h1>Single item</h1>
-        <Slider {...settings} >
-          {[1,2,3,4].map((index, item) => {return <div key={index} >{item}</div>})}
-        </Slider>
-     
-
+        <br/>
+        <h1 style={{textAlign: 'center'}}>הטיפולים שלנו</h1>
+        <br/>
+        <br/>
+        <Carousel breakPoints={breakPoints} >
+          {Data.map(({name,description,image})=>(<Item key={name}><h3>{name}</h3><p>{description}</p><img src={image} height={250} style={{borderRadius:'10px', boxShadow: 'rgba(141, 141, 182, 0.158) 0px 4px 10px 2px, rgba(168, 167, 167, 0.185) 0px 3px 7px 1px'}}/></Item>))}
+        </Carousel>
 
     </div>
   )
