@@ -18,7 +18,7 @@
 
 .contact-background{
   flex: 1;
-  background-color: #f8c9dc;
+  /* background-color: #f8c9dc; */
   width: 50%;
   border-bottom-right-radius: 25px;
   border-top-right-radius: 25px;
