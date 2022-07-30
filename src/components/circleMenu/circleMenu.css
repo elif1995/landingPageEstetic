@@ -31,3 +31,34 @@
   background-color:rgb(246, 54, 54);
   transition: 0.2s ease;
 }
+
+
+
+
+
+
+
+
+
+
+
+button.rec-arrow{
+  background-color: transparent;
+  box-shadow: none;
+  border:none;
+  color:black;
+}
+
+button.rec-arrow:hover, button.rec-arrow:active, button.rec-arrow:focus  {
+  box-shadow: 0 0 1px 3px pink;
+  
+
+}
+
+.rec.rec-arrow-left:hover:enabled,
+.rec.rec-arrow-right:hover:enabled{
+    background-color: pink;
+    box-shadow: none;
+}
+
+

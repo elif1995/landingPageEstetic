@@ -14,9 +14,9 @@ function App() {
       <Body/>
       
       <CircleMenu/>
-      <br/>
+      
       <Contact />
-      <br/>
+      
       <div className="fotter">
         <h4 style={{ fontFamily:'initial',textAlign:'center',backgroundColor:'lightGrey',padding:'1vh'}}>developed in 2022 by: Eli Frenkin &copy;</h4 >
       </div>
