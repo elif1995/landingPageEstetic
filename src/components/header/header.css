@@ -71,11 +71,11 @@
   position: absolute;
   background-color: transparent;
   /* border: 2px solid rgba(232, 156, 181, 0.399); */
-  height: 100px;
-  width: 100px;
+  height: 40px;
+  width: 50px;
   /* border-radius: 50px; */
   
-  
+  background-color: transparent;
   top:10px;
   left:0;
   

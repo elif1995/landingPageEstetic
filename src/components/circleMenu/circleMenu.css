@@ -5,3 +5,29 @@
  padding-top:100px ;
  
 }
+
+.action-button{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.action-button button{
+  background-color:rgb(241, 138, 138);
+  padding:12px 100px;
+  border-radius:10px;
+  border:none;
+  box-shadow:5px 5px 10px rgb(188, 188, 188);
+  color:white;
+  font-weight:bold;
+  font-size: 20px;
+  cursor: pointer;
+  text-align:center;
+}
+
+.action-button button:active{
+  transform:translateY(5px) translateX(5px);
+  box-shadow:none;
+  background-color:rgb(246, 54, 54);
+  transition: 0.2s ease;
+}

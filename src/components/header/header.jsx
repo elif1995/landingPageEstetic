@@ -19,7 +19,7 @@ const Header = () => {
   סיימה את לימודי ההמשך בתחום האסתטיקה הרפואית ועברה התמחות באירופה.
   משתתפת באופן קבוע בכנסים והשתלמויות בארץ ובחו"ל.</h2>
         </div>
-        <div  id="badge-ribbon" ><a target="_blank" href="https://www.medreviews.co.il/provider/dr-frenkin-yulia" ><h2> ⭐ 5.0</h2></a></div>
+        <div  id="badge-ribbon" ><a target="_blank" href="https://www.medreviews.co.il/provider/dr-frenkin-yulia" ><h3> ⭐ 5.0</h3></a></div>
       </div>
       <div className="header-hovers">
         {/* <div className="header-box"><p>בוטוקס</p></div>
