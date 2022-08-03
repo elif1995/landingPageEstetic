@@ -6,7 +6,7 @@ export default styled.div`
     justify-content:space-between;
     min-height:480px;
     
-    width:250px;
+    max-width:200px;
     background-color:white;
     color:grey;
     margin: 10px 30px;

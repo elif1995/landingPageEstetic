@@ -92,3 +92,50 @@
     flex-direction: column
   }
 }
+
+#badge-ribbon {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  /* position: absolute; */
+  
+  /* border: 2px solid rgba(232, 156, 181, 0.399); */
+  
+  /* border-radius: 50px; */
+  background-color:rgb(241, 138, 138);
+  
+  
+  
+  border-radius:10px;
+  border:none;
+  box-shadow:5px 5px 10px rgba(188, 188, 188, 0.778);
+  color:white;
+  font-weight:bold;
+  font-size: 25px;
+  cursor: pointer;
+  text-align:center;
+  padding:5px;
+  
+  
+}
+#badge-ribbon a{
+  text-decoration: none;
+  color:white;
+  
+}
+
+#badge-ribbon:active{
+  transform:translateY(5px) translateX(5px);
+  box-shadow:none;
+  background-color:rgb(246, 54, 54);
+  transition: 0.2s ease;
+  
+}
+
+#badge-ribbon:hover{
+  border:4px solid pink;
+  background-color:rgb(246, 54, 54);
+  padding:1px 4px;
+  transition: 0.2s ease;
+
+}

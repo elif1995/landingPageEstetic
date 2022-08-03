@@ -60,29 +60,14 @@
   align-items: center;
   color: black;
   font-weight: bold;
-  font-size: clamp(0.5vh,1.7rem, 3vw);
+  font-size: clamp(0.5vh,1.7rem, 4vw);
 }
 
 
 
 
 
-#badge-ribbon {
-  position: absolute;
-  background-color: transparent;
-  /* border: 2px solid rgba(232, 156, 181, 0.399); */
-  height: 40px;
-  width: 50px;
-  /* border-radius: 50px; */
-  
-  background-color: transparent;
-  top:10px;
-  left:0;
-  
-}
-#badge-ribbon a{
-  text-decoration: none;
-}
+
 
 .phone-slider{
   position: fixed;
@@ -106,7 +91,7 @@
   left:0;
   top:200px;
   transition:0.2s ease;
-  
+  z-index: 2;
   padding: 5px
 }
 

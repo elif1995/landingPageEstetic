@@ -19,6 +19,7 @@ function Body() {
 סיימה את לימודי ההמשך בתחום האסתטיקה הרפואית ועברה התמחות באירופה.
 משתתפת באופן קבוע בכנסים והשתלמויות בארץ ובחו"ל.</h2><img src="http://yuliafrenkin.co.il/wp-content/uploads/2018/06/Ulia.jpg" />
       </div> */}
+      
       <div>
 
       </div>

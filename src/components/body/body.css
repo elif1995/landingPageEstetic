@@ -18,7 +18,7 @@
   border-radius:250px;
   box-shadow: rgba(80, 80, 101, 0.181) 0px 0px 16px;
   /* border: 1px solid rgb(246, 210, 215); */
-  width: clamp(20vw,50vw, 30vw);
+  width: 30vw;
   
 }
 
@@ -32,9 +32,10 @@
   display:flex;
   justify-content:center;
   align-items:center;
+  flex-direction: column;
   padding:20px;
   line-height:50px;
-  font-size: clamp(1vh,1.9rem, 3vw);
+  font-size: clamp(1vh,1.9rem, 4.5vw);
   color:rgb(239, 239, 239)
 }
 
@@ -60,7 +61,7 @@
   }
   .body-doctor-section > img{
     
-    
+    width:50vw;
     border-radius:250px
     
   }

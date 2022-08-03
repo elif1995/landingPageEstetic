@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
-import './header.css'
+import './header.css';
+import yuliafrenkinImg from '../Ulia.jpg'
 
 const Header = () => {
 
@@ -13,14 +14,19 @@ const Header = () => {
           <h2>&#128222; {openPhone && <span>054-4854747</span>}</h2>
         </div>
       <div className="body-doctor-section">
-        <img src="http://yuliafrenkin.co.il/wp-content/uploads/2018/06/Ulia.jpg" />
+      
+        <img src={yuliafrenkinImg} />
         <h2>ד"ר יוליה פרנקין, בעלת ותק רפואי של מעל 20 שנה וניסיון רב בתחומי האסתטיקה.
   
   סיימה את לימודי ההמשך בתחום האסתטיקה הרפואית ועברה התמחות באירופה.
-  משתתפת באופן קבוע בכנסים והשתלמויות בארץ ובחו"ל.</h2>
+  משתתפת באופן קבוע בכנסים והשתלמויות בארץ ובחו"ל.
+  </h2>
+  
         </div>
-        <div  id="badge-ribbon" ><a target="_blank" href="https://www.medreviews.co.il/provider/dr-frenkin-yulia" ><h3> ⭐ 5.0</h3></a></div>
+        
+        
       </div>
+      
       <div className="header-hovers">
         {/* <div className="header-box"><p>בוטוקס</p></div>
         <div className="header-box"><p>פיסול פנים</p></div>

@@ -23,7 +23,7 @@ const CircleMenu = () => {
   return (
     <div className="body-carousel">
         <div className="action-button">
-        <Link smooth={true} style={{color: 'white',textDecoration: 'none'}} to="contact"><button  >השאירו פרטים </button></Link>
+        <Link smooth={true} style={{color: 'white',textDecoration: 'none'}} to="contact"><button  >השאירו פרטים &#9997;</button></Link>
           {/* &#128071; */}
         </div>
         <br/>
