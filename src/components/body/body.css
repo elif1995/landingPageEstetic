@@ -35,7 +35,7 @@
   flex-direction: column;
   padding:20px;
   line-height:50px;
-  font-size: clamp(1vh,1.9rem, 4.5vw);
+  font-size: clamp(1vh,1.9rem, 6vw);
   color:rgb(239, 239, 239)
 }
 
@@ -46,14 +46,14 @@
 
 
 
-@media  screen and (max-width:880px){
+@media  screen and (max-width:790px){
   .body-doctor-section{
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
   }
   .body-doctor-section > h2{
-    width:50%;
+    width:99%;
     height:80%;
     margin-top: 10px;
     border-radius:10px;
@@ -61,7 +61,8 @@
   }
   .body-doctor-section > img{
     
-    width:50vw;
+    width:55vw;
+    height:65vh;
     border-radius:250px
     
   }

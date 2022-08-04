@@ -31,7 +31,7 @@ export const Data = [{
 {
   name: 'מיצוק העור עם גלי רדיו',
   description: 'מכשיר פרקטורה החדשני גורם לייצור מוגבר של קולגן ומטפל בקמטוטים בעור,ממלא צלקות אקנה,מטפל באקנה פעיל ומשפר את מרקם העור.  ',
-  image: 'http://yuliafrenkin.co.il/wp-content/uploads/2018/06/new-machine-3-300x225.jpg'
+  image: 'https://hcliniclaser.co.il/wp-content/uploads/thumbs/MichaelaSamplesWednesdayHairRemoval-8-piujpw0fsy6c15hjrlu068rz4dwfmj3dd1q2kcfkw8.jpg'
 },
 {
   name: 'טיפול בהזעת יתר',
